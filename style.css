@@ -24,13 +24,23 @@
     font-weight: normal;
     font-style: italic;
 }
+body{
+    position: relative;
+    background-color: #850409;
+}
 header{
     background-color: #af2024;
-    padding-bottom: 40px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: inline-block;
 }
 section{
     background-image: url("images/pizza.jpg");
-    border-bottom: 450px solid black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 40px;
 }
 article {
     max-width: 960px;
@@ -55,14 +65,13 @@ h1{
     margin-bottom: 60px;
 }
 .container{
-    width: 570px;
+    max-width: 570px;
     margin: auto;
 }
 .video{
-    height: 400px;
     background-color: #e7e7e7;
     position: relative;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .video:after{
     content: "";
@@ -112,4 +121,28 @@ p:before{
     line-height: 10px;
     padding-bottom: 30px;
     font-size: 20px;
+}
+.soc_icons{
+    position: fixed;
+    top: 50%;
+    left: 96.5%;
+    font-size: 30px;
+    z-index: 1;
+}
+.fa-facebook-f{
+    background-color: #850409;
+}
+.fa-twitter{
+    background-color: #98161b;
+}
+.fab{
+    min-width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+footer{
+    height: 450px;
+    background-color: black;
+    width: 100%;
 }
