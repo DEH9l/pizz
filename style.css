@@ -51,6 +51,11 @@ article {
 section img {
     padding-bottom: 30px;
 }
+.logo{
+    display: inline-block;
+    max-width: 365px;
+    width: 100%;
+}
 .player{
     max-width: 710px;
     margin: auto;
@@ -145,4 +150,7 @@ footer{
     height: 450px;
     background-color: black;
     width: 100%;
+}
+.wrapper{
+    margin: 0 15px;
 }
